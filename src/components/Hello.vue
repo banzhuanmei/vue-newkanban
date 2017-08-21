@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <!--<h1>{{ msg }}</h1>-->
     <!--<h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -23,12 +23,12 @@
 <script>
 export default {
   name: 'hello',
-  data () {
+  data() {
     return {
       msg: 'Welcome to Your Vue.js App'
-    }
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -49,5 +49,14 @@ li {
 
 a {
   color: #42b983;
+}
+.hello{
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 46px;
+  min-height: 46px; 
+  background-color: #2b3643;
 }
 </style>
